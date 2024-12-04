@@ -8,6 +8,13 @@ export default {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        'auto-fit-100': 'repeat(auto-fit, minmax(100px, 1fr))',
+        'auto-fit-300': 'repeat(auto-fit, minmax(300px, 1fr))',
+      },
+      aspectRatio: {
+        '4/3': '4/3'
+      },
       colors: {
         
         gray900: "#121214",
@@ -30,4 +37,5 @@ export default {
     },
   },
   plugins: [],
+  darkMode: "class"
 } satisfies Config;

@@ -1,10 +1,14 @@
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { FaDocker, FaGitAlt, FaGithub, FaReact } from "react-icons/fa";
-import { SiMongodb, SiNextdotjs, SiTypescript } from "react-icons/si";
+import { techs } from "../projects/techs";
+import Tilt from "react-parallax-tilt";
 import { IoLogoJavascript } from "react-icons/io";
-
+import { SiMongodb, SiNestjs, SiTypescript } from "react-icons/si";
+import { FaCss3Alt, FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { GrMysql } from "react-icons/gr";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const Knowledges = () => {
   const { theme } = useContext(ThemeContext);
@@ -27,81 +31,258 @@ const Knowledges = () => {
             theme === "dark"
               ? "text-black border-text-light"
               : "text-white border-text-dark"
-          } md:text-6xl text-4xl uppercase font-semibold py-4 absolute md:-top-6 -top-4 md:-left-[11%] -left-[10%] z-[0] opacity-60  whitespace-nowrap mb-6`}
+          } md:text-6xl text-4xl uppercase font-semibold py-4 absolute md:-top-6 -top-4 md:-left-[11%] -left-[10%] z-[0] opacity-60  whitespace-nowrap`}
         >
           Conhecimentos
         </h2>
-
-        <section
+      </section>
+      <section
         style={{ perspective: 2000 }}
-        className="grid-cols-auto-fit-100 pt-12 gap-y-4 flex md:gap-6 w-11/12  md:px-4"
+        className="grid grid-cols-8 grid-rows-2 pt-10 gap-y-4 md:gap-4 w-11/12  md:px-4"
         data-aos="fade-right"
         data-aos-duration="1300"
-        >
-        <article className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-28 w-28 h-28 p:14 md:h-36 overflow-hidden">
-            <BiLogoPostgresql size={80} className="group-hover:translate-y-[-10%] text-green300 group-hover:scale-110 duration-500 text-4xl md:text-6xl flex items-center justify-center" />
-            <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-green300 font-semibold text-sm">
-                PostgreSql
-            </p>
-        </article>
+      >
+      
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <IoLogoJavascript className="group-hover:translate-y-[-10%] group-hover:scale-110 dark:text-purple-700 duration-500 gradientText text-4xl md:text-6xl" />
 
-        <article className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-28 w-28 h-28 p:14 md:h-36 overflow-hidden">
-            <FaReact size={80} className="group-hover:translate-y-[-10%] text-green300 group-hover:scale-110 duration-500 text-4xl md:text-6xl flex items-center justify-center" />
-            <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-green300 font-semibold text-sm">
-                React
-            </p>
-        </article>
-
-        <article className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-28 w-28 h-28 p:14 md:h-36 overflow-hidden">
-            <SiNextdotjs size={80} className="group-hover:translate-y-[-10%] text-green300 group-hover:scale-110 duration-500 text-4xl md:text-6xl flex items-center justify-center" />
-            <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-green300 font-semibold text-sm">
-                Next
-            </p>
-        </article>
-
-        <article className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-28 w-28 h-28 p:14 md:h-36 overflow-hidden">
-            <IoLogoJavascript  size={80} className="group-hover:translate-y-[-10%] text-green300 group-hover:scale-110 duration-500 text-4xl md:text-6xl flex items-center justify-center" />
-            <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-green300 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
                 Java script
-            </p>
-        </article>
+              </p>
+            </article>
+          </Tilt>
 
-        <article className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-28 w-28 h-28 p:14 md:h-36 overflow-hidden">
-            <SiTypescript  size={80} className="group-hover:translate-y-[-10%] text-green300 group-hover:scale-110 duration-500 text-4xl md:text-6xl flex items-center justify-center" />
-            <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-green300 font-semibold text-sm">
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <SiTypescript  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
                 Type script
-            </p>
-        </article>
+              </p>
+            </article>
+          </Tilt>
 
-        <article className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-28 w-28 h-28 p:14 md:h-36 overflow-hidden">
-            <FaDocker  size={80} className="group-hover:translate-y-[-10%] text-green300 group-hover:scale-110 duration-500 text-4xl md:text-6xl flex items-center justify-center" />
-            <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-green300 font-semibold text-sm">
-                Docker
-            </p>
-        </article>
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <FaReact  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-        <article className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-28 w-28 h-28 p:14 md:h-36 overflow-hidden">
-            <FaGitAlt  size={80} className="group-hover:translate-y-[-10%] text-green300 group-hover:scale-110 duration-500 text-4xl md:text-6xl flex items-center justify-center" />
-            <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-green300 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                React
+              </p>
+            </article>
+          </Tilt>
+
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <RiNextjsFill  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                Next
+              </p>
+            </article>
+          </Tilt>
+
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <FaNodeJs  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                NodeJS
+              </p>
+            </article>
+          </Tilt>
+
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <RiTailwindCssFill  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                Tailwind
+              </p>
+            </article>
+          </Tilt>
+
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <FaHtml5  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                HTML
+              </p>
+            </article>
+          </Tilt>
+
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <FaCss3Alt  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                CSS
+              </p>
+            </article>
+          </Tilt>
+
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <FaGitAlt  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
                 Git
-            </p>
-        </article>
+              </p>
+            </article>
+          </Tilt>
 
-        <article className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-28 w-28 h-28 p:14 md:h-36 overflow-hidden">
-            <FaGithub  size={80} className="group-hover:translate-y-[-10%] text-green300 group-hover:scale-110 duration-500 text-4xl md:text-6xl flex items-center justify-center" />
-            <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-green300 font-semibold text-sm">
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <FaGithub  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
                 Github
-            </p>
-        </article>
+              </p>
+            </article>
+          </Tilt>
 
-        <article className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-28 w-28 h-28 p:14 md:h-36 overflow-hidden">
-            <SiMongodb  size={80} className="group-hover:translate-y-[-10%] text-green300 group-hover:scale-110 duration-500 text-4xl md:text-6xl flex items-center justify-center" />
-            <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-green300 font-semibold text-sm">
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <SiMongodb  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
                 MongoDB
-            </p>
-        </article>
+              </p>
+            </article>
+          </Tilt>
 
-      </section>
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <BiLogoPostgresql  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                PostgreSQL
+              </p>
+            </article>
+          </Tilt>
+
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <GrMysql  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                MySQL
+              </p>
+            </article>
+          </Tilt>
+
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <FaPython  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                Python
+              </p>
+            </article>
+          </Tilt>
+
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article
+              className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
+            >
+              <TbBrandCSharp  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                CSharp
+              </p>
+            </article>
+          </Tilt>
+
+          <Tilt
+            tiltReverse={true}
+            scale={1.05}
+          >
+            <article className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg 
+              hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 
+              justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden">
+
+              <SiNestjs  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 
+                duration-500 gradientText text-4xl md:text-6xl" />
+                <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                  NestJS
+                </p>
+            </article>
+          </Tilt>
       </section>
     </section>
   );

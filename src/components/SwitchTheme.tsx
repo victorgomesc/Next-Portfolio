@@ -1,5 +1,4 @@
 
-import { useState } from "react";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 type ThemeProps = {
   setTheme(value: string): void;
@@ -23,18 +22,18 @@ const SwitchTheme = ({ setTheme, theme }: ThemeProps) => {
 
   return (
     <div
-      className="md:mr-4 cursor-pointer duration-500 border dark:border-zinc-400 border-black rounded-full w-10 relative"
+      className="md:mr-4 cursor-pointer duration-500 border border-black rounded-full w-10 relative"
       onClick={toggleTheme}
     >
       <div
-        className={`dark:text-black dark:-translate-x-0 duration-500 text-white -translate-x-4 duration-500"
+        className={`dark:text-black dark:-translate-x-0 duration-500 text-white duration-500"
         } `}
       >
         <div
-          className={`rounded-full dark:bg-slate-600 bg-amber-400 text-white 
-          w-[25px] h-[25px] text-center flex items-center justify-center relative translate-x-4`}
+          className="rounded-full dark:bg-slate-700 bg-amber-400 text-white 
+          w-[25px] h-[25px] text-center flex items-center justify-center relative"
         >
-          {theme === "light" ? <BsFillSunFill /> : <BsFillMoonStarsFill />}
+          {theme === "light" ? <BsFillSunFill className="translate-x-0 bg-amber-400 rounded-full" /> : <BsFillMoonStarsFill className="translate-x-4 dark:bg-slate-600 rounded-full" /> }
         </div>
       </div>
     </div>
