@@ -34,17 +34,17 @@ const Contact = () => {
       </section>
       <img
         className="absolute top-0 right-0 md:w-[250px] md:h-[250px] w-[110px] h-[110px] z-[1] blur-3xl opacity-50 rounded-full"
-        src="/utils/img/bg-gradient.webp"
+        src="/assets/bg-gradient.webp"
         alt="bg-gradient"
       />
       <img
         className="absolute left-0 top-0 md:w-[250px] md:h-[250px] w-[110px] h-[110px] z-[1] blur-3xl opacity-50 rounded-full"
-        src="/utils/img/bg-gradient.webp"
+        src="/assets/bg-gradient.webp"
         alt="bg-gradient"
       />
       <img
         className="absolute md:-bottom-32 bottom-0 left-[40%] md:w-[250px] md:h-[250px] w-[80px] h-[80px] z-[1] blur-3xl opacity-30 rounded-full"
-        src="/utils/img/bg-gradient.webp"
+        src="/assets/bg-gradient.webp"
         alt="bg-gradient"
       />
     </section>
