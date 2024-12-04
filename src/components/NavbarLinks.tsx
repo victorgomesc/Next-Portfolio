@@ -41,7 +41,7 @@ const NavbarLinks = () => {
           CV <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/curriculo/Curriculo_victor_atualizado.pdf",
       download: true,
     },
     {

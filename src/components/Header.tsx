@@ -1,83 +1,86 @@
 "use client";
-
-import { Link } from "react-scroll";
-import React, { useState } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { useContext, useEffect, useState } from "react";
+import { ThemeContext } from "../context/ThemeContext";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import SwitchTheme from "./SwitchTheme";
 
 const Header = () => {
-  const [nav, setNav] = useState(false);
-
+  const { theme, setTheme } = useContext(ThemeContext);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [sticky, setSticky] = useState<boolean>(false);
   const links = [
     {
-      id: 1,
-      link: "home",
+      name: "Sobre",
+      path: "#about",
     },
     {
-      id: 2,
-      link: "about",
+      name: "Habilidades",
+      path: "#knowledges",
     },
     {
-      id: 3,
-      link: "portfolio",
-    },
-    {
-      id: 4,
-      link: "experience",
-    },
-    {
-      id: 5,
-      link: "contact",
+      name: "Portfólio",
+      path: "#portfolio",
     },
   ];
 
+  useEffect(() => {
+    document.querySelector("body")?.setAttribute("class", theme);
+    const handleScroll = () => {
+      setSticky(window.scrollY >= 100);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [theme, sticky]);
+
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
-    <div>
-      <h1 className="text-5xl ml-2 font-montserrat">Victor Gomes</h1>
-    </div>
-
-    <ul className="hidden md:flex">
-        {links.map(({ id, link }) => (
-          <li
-            key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-gray100 hover:scale-105 duration-200"
-          >
-            <Link to={link} smooth duration={500}>
-              <p className='text-white'>{link}</p>
-            </Link>
-            
-          </li>
-        ))}
-      </ul>
-
-      <div
-        onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
+    <header
+      className={`${
+        sticky && "sticky top-0 shadow-stone-400"
+      } : "top-0 shadow-stone-400" shadow-md dark:shadow-xl duration-500 w-full md:flex items-center justify-between dark:bg-zinc-900 bg-zinc-100 h-auto p-4 z-[3]`}
+    >
+      <span
+        className={`border-gradient-light dark:border-gradient-dark font-semibold mb-8 md:text-xl md:mb-0 cursor-pointer`}
       >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
-      </div>
-
-      {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-          {links.map(({ id, link }) => (
-            <li
-              key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
-            >
-              <Link
-                onClick={() => setNav(!nav)}
-                to={link}
-                smooth
-                duration={500}
+        <a className="font-bold" href="#home">
+          &lt;Victor /&gt;
+        </a>
+      </span>
+      <nav>
+        <div
+          onClick={() => setIsOpen(!isOpen)}
+          className="absolute md:hidden top-4 right-6 text-2xl transition-all duration-500 cursor-pointer md:static dark:text-white"
+        >
+          {isOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
+        </div>
+        <ul
+          className={`pt-2 md:pt-0 md:flex md:items-center md:static md:z-auto absolute top-14 duration-500 z-[2] dark:bg-zinc-900 ${
+            isOpen
+              ? "translate-y-0 bg-zinc-100 w-full left-0 pl-2 pb-2"
+              : "-translate-y-[300%] md:translate-y-0"
+          }`}
+        >
+          <SwitchTheme setTheme={setTheme} theme={theme} />
+          {links.map((link) => {
+            return (
+              <li
+                key={link.name}
+                className="md:ml-6 mt-4 md:mt-0 border-l-2 md:border-l-0 pl-2 border-gradient md:pl-0 dark:text-white text-base text-black duration-500 md:relative"
               >
-                {link}
-              </Link>
-            </li>
-          ))}
+                <a
+                  className="md:after:absolute md:after:content-[''] md:after:bg-gradient-to-r from-indigo-500 from-21%  via-sky-500 via-45% to-cyan-300 to-90% md:after:h-[2px] md:after:w-0  md:after:left-0 md:after:-bottom-[5px] md:hover:after:w-[100%] md:after:duration-500"
+                  href={link.path}
+                >
+                  {link.name}
+                </a>
+              </li>
+            );
+          })}
         </ul>
-      )}
-    </div>
-  )
-}
+      </nav>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
