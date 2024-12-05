@@ -10,7 +10,7 @@ export const projects: ProjectType[] = [
       "/assets/projects/carros3.png",
       "/assets/projects/carros4.png",
     ],
-    repo: "https://github.com/YuriLRodrigues/First-Fullstack-Project",
+    repo: "https://github.com/victorgomesc/Cars_showcase",
     deploy: "https://first-fs-project-with-hookform-zod.vercel.app/"
   },
   {
@@ -21,8 +21,8 @@ export const projects: ProjectType[] = [
       "/assets/projects/ecommerce2.png",
       "/assets/projects/ecommerce3.png",
     ],
-    repo: "https://github.com/YuriLRodrigues/next-auth",
-    deploy: "https://ecommerce-next-swart-eta.vercel.app/cart"
+    repo: "https://github.com/victorgomesc/apple_website",
+    deploy: "https://iphone-doc.vercel.app/"
   },
   {
     name: "Apple Website",
@@ -34,8 +34,8 @@ export const projects: ProjectType[] = [
       "/assets/projects/apple4.png",
       "/assets/projects/apple5.png",
     ],
-    repo: "https://github.com/YuriLRodrigues/Pokedex-Api-React",
-    deploy: "https://pokedex-api-react-six.vercel.app/"
+    repo: "https://github.com/victorgomesc/apple_website",
+    deploy: "https://iphone-doc.vercel.app/"
   },
   {
     name: "Colaborative Tasks",
@@ -45,7 +45,7 @@ export const projects: ProjectType[] = [
       "/assets/projects/tarefas2.png",
       "/assets/projects/tarefas3.png",
     ],
-    repo: "https://github.com/YuriLRodrigues/Pokedex-Api-React",
+    repo: "https://github.com/victorgomesc/Collaborative-Task",
     deploy: "https://mercado-livre-react.vercel.app/"
   },
   {
@@ -55,11 +55,11 @@ export const projects: ProjectType[] = [
       "/assets/projects/spotfy.png",
       "/assets/projects/spotfy2.png",
     ],
-    repo: "https://github.com/YuriLRodrigues/Pokedex-Api-React",
+    repo: "https://github.com/victorgomesc/Clone-Spotify",
     deploy: "https://pokedex-api-react-six.vercel.app/"
   },
   {
-    name: "Spotfy Clone",
+    name: "DTmoney",
     techs: ["devicon-react-original", "devicon-sass-original"],
     images: [
       "/assets/projects/dtmoney.png",

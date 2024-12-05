@@ -40,7 +40,7 @@ const { theme } = useContext(ThemeContext);
         />
 
         <section className="flex md:flex-row flex-col items-center h-full">
-          <div className="md:w-4/1 w-6/12 flex items-center justify-center">
+          <div className="md:w-4/1 w-6/12 flex items-center justify-center ml-18">
             <Image
               className="text-center z-10 rounded-xl"
               src="/assets/experiences/incurso.png"
@@ -52,18 +52,18 @@ const { theme } = useContext(ThemeContext);
           </div>
           <div className="md:w-8/12 md:pt-0 pt-4 flex flex-col items-start justify-center">
             <p className="text-justify px-8 py-4">
-            <strong className="text-2xl">Desenvolvedor Full Stack - Estágio</strong><br />
+            <strong className="text-2xl">Full Stack Developer - Internship</strong><br />
             <span className="text-xl font-semibold">IncursoNet - Jucás, CE (Ago/2019 – Dez/2019)</span><br />
               <li>
-                Desenvolvi sistemas web que atendian as nessecidades dos clientes utilizando as seguintes tecnologias: 
-                Type Script, React, Next.js, Node.js, SQL, MySQL.
+              I developed web systems that met customer needs using the following technologies: Type Script, React, 
+              Next.js, Node.js, SQL, MySQL, Jira, Gitflow, apirest.
               </li>
               <li>
-                Implementei metodologias ágeis de desenvolvimento com Scrum e Kanbam.
+              Implemented agile development methodologies with Scrum and Kanbam.
               </li>
               <li>
-              Desenvolvi e aprimorei minhas habilidades (Hard Skills, Soft Skills) na pratica com ajuda de colegas de 
-              trabalho mais experientes.
+              I developed and improved my skills (Hard Skills, Soft Skills) in practice with the help of colleagues from 
+              more experienced work.
               </li>
             </p>
           </div>
@@ -82,22 +82,22 @@ const { theme } = useContext(ThemeContext);
           </div>
           <div className="md:w-8/12 md:pt-0 pt-4 flex flex-col items-start justify-center">
             <p className="text-justify px-8 py-4">
-            <strong className="text-2xl">Desenvolvedor Full Stack - Bolsista</strong><br />
+            <strong className="text-2xl">Full Stack Developer - Scholarship Holder</strong><br />
             <span className="text-xl font-semibold">Universidade Federal do Ceara - Quixadá, CE (Jan/2023 - Jan/2024)</span><br />
               <li>
-              Colaborei com o professor e Doutor da Universidade Federal do Ceara, João Ferreira de Lavor na construção 
-              de um sistema web chamado Prontuario Eletrônico para os postos de saúde da cidade de orós no ceara.
+              I collaborated with the professor and PhD from the Federal University of Ceara, João Ferreira de Lavor in the construction 
+              of a web system called Electronic Record for health centers in the city of Orós in Ceara.
               </li>
               <li>
-              Utilizei todos meus conhecimentos  nas tecnologias Type script, React, Next.js, Node.js, Tailwind CSS, 
+              I used all my knowledge in Type script, React, Next.js, Node.js, Tailwind CSS, 
               Nest.js, SQL, MongoDB, Git, Github.
               </li>
               <li>
-              Implementei também a cultura de testes unitários utilizando o Jest e Testing-library.
+              I also implemented the unit testing culture using Jest and Testing-library.
               </li>
               <li>
-              Implementei conceitos de arquitetura e engenharia de software para garantir um fluxo mais fluido de 
-              desenvolvimento e uma fácil manutenção, assim como boas praticas de programação.
+              Implemented architecture and software engineering concepts to ensure a more fluid flow of 
+              development and easy maintenance, as well as good programming practices.
               </li>
             </p>
           </div>
@@ -116,27 +116,27 @@ const { theme } = useContext(ThemeContext);
           </div>
           <div className="md:w-8/12 md:pt-0 pt-4 flex flex-col items-start justify-center">
             <p className="text-justify px-8 py-4">
-            <strong className="text-2xl">Desenvolvedor Full Stack - Junior</strong><br />
+            <strong className="text-2xl">Full Stack Developer - Junior</strong><br />
             <span className="text-xl font-semibold">Agro Coop Solutions - Quixadá, CE (Mar/2023 - Hoje)</span><br />
               <li>
-              Montei minha própria Startup em parceria com com a Universidade Federal do ceará e colegas da 
-              universidade para solucionar um problema vigente na nossa sociedade que se tratava da falta de sistemas 
-              de controle de atividades das cooperativas locais.
+              I set up my own Startup in partnership with the Federal University of Ceará and colleagues from 
+              university to solve a current problem in our society, which was the lack of systems 
+              control of activities of local cooperatives.
               </li>
 
               <li>
-              Criei com a colaboração de colegas e da própria universidade uma plataforma de gerenciamento de 
-              cooperativas.
+              I created, with the collaboration of colleagues and the university itself, a management platform 
+              cooperatives.
               </li>
 
               <li>
-              Utilizei as seguintes tecnologias: Type Script, React, Next.js, Tailwind CSS, Dotnet e Net core, 
-              PostgreSQL, Prisma, SQL, Jest e Testing-library.
+              I used the following technologies: Type Script, React, Next.js, Tailwind CSS, Dotnet and Net core, 
+              PostgreSQL, Prisma, SQL, Jest and Testing-library.
               </li>
 
               <li>
-              Implementei conceitos de arquitetura e engenharia de software para garantir um fluxo mais fluido de 
-              desenvolvimento e uma fácil manutenção, assim como boas praticas de programação.
+              Implemented architecture and software engineering concepts to ensure a more fluid flow of 
+              development and easy maintenance, as well as good programming practices.
               </li>
             </p>
           </div>
