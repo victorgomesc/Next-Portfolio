@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
-import { techs } from "../projects/techs";
 import Tilt from "react-parallax-tilt";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiMongodb, SiNestjs, SiTypescript } from "react-icons/si";

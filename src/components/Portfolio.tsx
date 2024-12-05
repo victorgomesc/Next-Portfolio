@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import { projects } from "../projects/myProjects";
 import ProjectCard from "./ProjectCard";
+import Image from "next/image";
 
 const Contact = () => {
   const { theme } = useContext(ThemeContext);
@@ -32,20 +33,26 @@ const Contact = () => {
           return <ProjectCard key={index} project={project} />;
         })}
       </section>
-      <img
+      <Image
         className="absolute top-0 right-0 md:w-[250px] md:h-[250px] w-[110px] h-[110px] z-[1] blur-3xl opacity-50 rounded-full"
         src="/assets/bg-gradient.webp"
         alt="bg-gradient"
+        width={250}
+        height={250}
       />
-      <img
+      <Image
         className="absolute left-0 top-0 md:w-[250px] md:h-[250px] w-[110px] h-[110px] z-[1] blur-3xl opacity-50 rounded-full"
         src="/assets/bg-gradient.webp"
         alt="bg-gradient"
+        width={250}
+        height={250}
       />
-      <img
+      <Image
         className="absolute md:-bottom-32 bottom-0 left-[40%] md:w-[250px] md:h-[250px] w-[80px] h-[80px] z-[1] blur-3xl opacity-30 rounded-full"
         src="/assets/bg-gradient.webp"
         alt="bg-gradient"
+        width={250}
+        height={250}
       />
     </section>
   );
