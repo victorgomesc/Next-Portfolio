@@ -28,15 +28,19 @@ const { theme } = useContext(ThemeContext);
           </h2>
         </section>
 
-        <img
+        <Image
           className="absolute top-0 right-0 md:w-[250px] md:h-[250px] w-[110px] h-[110px] text-center z-[-1] blur-3xl opacity-50 rounded-full"
           src="/assets/bg-gradient.webp"
           alt="bg-gradient"
+          width={250}
+          height={250}
         />
-        <img
+        <Image
           className="absolute bottom-0 left-0 md:w-[250px] md:h-[250px] w-[110px] h-[110px] text-center z-[-1] blur-3xl opacity-50 rounded-full"
           src="/assets/bg-gradient.webp"
           alt="bg-gradient"
+          width={250}
+          height={250}
         />
 
         <section className="flex md:flex-row flex-col items-center h-full">
