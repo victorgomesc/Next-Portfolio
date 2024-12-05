@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;600;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Permanent+Marker&family=Poppins:wght@200;300;400;500;600;800&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,6 +21,7 @@
     rgba(252, 176, 69, 1) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .border-gradient-dark {
@@ -30,6 +32,7 @@
     rgba(8, 194, 218, 1) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .border-gradient-light {
@@ -40,6 +43,7 @@
     rgba(8, 194, 218, 1) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .border-gradient {
@@ -109,6 +113,7 @@
     rgba(252, 176, 69, 1) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .swiper-button-next::after,

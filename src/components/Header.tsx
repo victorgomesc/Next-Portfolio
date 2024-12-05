@@ -1,4 +1,5 @@
 "use client";
+
 import { useContext, useEffect, useState } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
@@ -23,7 +24,7 @@ const Header = () => {
       path: "#knowledges",
     },
     {
-      name: "Portfólio",
+      name: "Portfolio",
       path: "#portfolio",
     },
   ];
@@ -49,7 +50,7 @@ const Header = () => {
         className={`border-gradient-light dark:border-gradient-dark font-semibold mb-8 md:text-xl md:mb-0 cursor-pointer`}
       >
         <Link className="font-bold" href="#home">
-          &lt;Victor /&gt;
+          &lt;Victor Gomes /&gt;
         </Link>
       </span>
       <nav>

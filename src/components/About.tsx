@@ -47,7 +47,7 @@ const About = () => {
         <section className="flex md:flex-row flex-col items-center">
           <div className="md:w-3/1 w-8/12 flex items-center justify-center">
             <Image
-              className="text-center z-10 rounded-xl"
+              className="text-center z-10 rounded-xl w-auto h-full"
               src="/assets/eu.jpg"
               alt="about-me"
               width={600}
