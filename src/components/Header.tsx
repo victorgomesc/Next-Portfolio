@@ -3,6 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import SwitchTheme from "./SwitchTheme";
+import Link from "next/link";
 
 const Header = () => {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -47,9 +48,9 @@ const Header = () => {
       <span
         className={`border-gradient-light dark:border-gradient-dark font-semibold mb-8 md:text-xl md:mb-0 cursor-pointer`}
       >
-        <a className="font-bold" href="#home">
+        <Link className="font-bold" href="#home">
           &lt;Victor /&gt;
-        </a>
+        </Link>
       </span>
       <nav>
         <div
@@ -72,12 +73,12 @@ const Header = () => {
                 key={link.name}
                 className="md:ml-6 mt-4 md:mt-0 border-l-2 md:border-l-0 pl-2 border-gradient md:pl-0 dark:text-white text-base text-black duration-500 md:relative"
               >
-                <a
+                <Link
                   className="md:after:absolute md:after:content-[''] md:after:bg-gradient-to-r from-indigo-500 from-21%  via-sky-500 via-45% to-cyan-300 to-90% md:after:h-[2px] md:after:w-0  md:after:left-0 md:after:-bottom-[5px] md:hover:after:w-[100%] md:after:duration-500"
                   href={link.path}
                 >
                   {link.name}
-                </a>
+                </Link>
               </li>
             );
           })}

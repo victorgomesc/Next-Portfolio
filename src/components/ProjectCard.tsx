@@ -11,7 +11,7 @@ import "swiper/css/autoplay";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import ViewAndRepo from "./ViewAndRepo";
 import Tilt from "react-parallax-tilt";
-import { FaReact } from "react-icons/fa";
+import Image from "next/image";
 register();
 
 const ProjectCard = ({ project }: ProjectInfo) => {
@@ -55,10 +55,12 @@ const ProjectCard = ({ project }: ProjectInfo) => {
             </div>
             {project.images.map((projectImages: string, index) => (
               <SwiperSlide key={index}>
-                <img
+                <Image
                   className="duration-700 blur-sm group-hover:blur-0 w-full h-[300px] object-cover object-center aspect-4/3"
                   src={projectImages}
                   alt={project.name}
+                  height={300}
+                  width={300}
                 />
               </SwiperSlide>
             ))}

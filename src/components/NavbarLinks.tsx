@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { CiInstagram } from "react-icons/ci";
@@ -51,7 +52,7 @@ const NavbarLinks = () => {
           Instagram <CiInstagram size={30} />
         </>
       ),
-      href: "https://github.com/hyarlei",
+      href: "https://www.instagram.com/victor_gomesc/?next=%2F",
       style: "rounded-br-md",
     },
   ];
@@ -68,7 +69,7 @@ const NavbarLinks = () => {
               style
             }
           >
-            <a
+            <Link
               href={href}
               className="flex justify-between items-center w-full text-white"
               download={download}
@@ -76,7 +77,7 @@ const NavbarLinks = () => {
               rel="noreferrer"
             >
               {child}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
