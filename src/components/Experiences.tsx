@@ -6,7 +6,7 @@ const Experiences = () => {
 const { theme } = useContext(ThemeContext);
   return (
     <div>
-    <section id="about" className="dark:text-white md:pt-10 py-8 text-center 
+    <section id="experiences" className="dark:text-white md:pt-10 py-8 text-center 
     bg-zinc-100 dark:bg-zinc-900 relative">
         <section
         className="flex flex-col items-center justify-center"

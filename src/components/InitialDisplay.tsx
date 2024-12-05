@@ -30,7 +30,7 @@ const InitialDisplay = () => {
         ref={root}
       >
         <section data-aos="fade-down" data-aos-duration="1000">
-          <h2 className="text-4xl font-semibold">Olá, eu sou</h2>
+          <h2 className="text-4xl font-semibold">Hello, I am</h2>
           <h1 className="font-semibold text-4xl">&lt; <Typewriter
             words={['Victor Gomes da Costa']}
             loop={3}
@@ -41,7 +41,7 @@ const InitialDisplay = () => {
             delaySpeed={800}
           /> /&gt;</h1>
           <h2 className="font-semibold text-4xl">
-            Desenvolvedor{" "}
+            Developer{" "}
             <span className="gradientText">
             <b>
             <Typewriter

@@ -24,7 +24,7 @@ const Knowledges = () => {
         data-aos-duration="1300"
       >
         <h2 className="md:text-5xl text-3xl uppercase font-semibold py-4 dark:text-white relative z-[2]">
-          Conhecimentos
+        Knowledges
         </h2>
         <h2
           className={` ${
@@ -33,7 +33,7 @@ const Knowledges = () => {
               : "text-white border-text-dark"
           } md:text-6xl text-4xl uppercase font-semibold py-4 absolute md:-top-6 -top-4 md:-left-[11%] -left-[10%] z-[0] opacity-60  whitespace-nowrap`}
         >
-          Conhecimentos
+          Knowledges
         </h2>
       </section>
       <section

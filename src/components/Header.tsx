@@ -10,11 +10,15 @@ const Header = () => {
   const [sticky, setSticky] = useState<boolean>(false);
   const links = [
     {
-      name: "Sobre",
+      name: "About",
       path: "#about",
     },
     {
-      name: "Habilidades",
+      name: "Experiences",
+      path: "#experiences",
+    },
+    {
+      name: "Knowledges",
       path: "#knowledges",
     },
     {
