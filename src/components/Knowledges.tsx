@@ -49,9 +49,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <IoLogoJavascript className="group-hover:translate-y-[-10%] group-hover:scale-110 dark:text-purple-700 duration-500 gradientText text-4xl md:text-6xl" />
+              <IoLogoJavascript className="group-hover:translate-y-[-10%] group-hover:scale-110 text-purple-700 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 Java script
               </p>
             </article>
@@ -64,9 +64,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <SiTypescript  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <SiTypescript  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 Type script
               </p>
             </article>
@@ -79,9 +79,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <FaReact  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <FaReact  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 React
               </p>
             </article>
@@ -94,9 +94,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <RiNextjsFill  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <RiNextjsFill  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 Next
               </p>
             </article>
@@ -109,9 +109,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <FaNodeJs  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <FaNodeJs  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 NodeJS
               </p>
             </article>
@@ -124,9 +124,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <RiTailwindCssFill  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <RiTailwindCssFill  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 Tailwind
               </p>
             </article>
@@ -139,9 +139,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <FaHtml5  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <FaHtml5  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 HTML
               </p>
             </article>
@@ -154,9 +154,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <FaCss3Alt  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <FaCss3Alt  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 CSS
               </p>
             </article>
@@ -169,9 +169,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <FaGitAlt  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <FaGitAlt  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 Git
               </p>
             </article>
@@ -184,9 +184,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <FaGithub  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <FaGithub  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 Github
               </p>
             </article>
@@ -199,9 +199,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <SiMongodb  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <SiMongodb  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 MongoDB
               </p>
             </article>
@@ -214,9 +214,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <BiLogoPostgresql  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <BiLogoPostgresql  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 PostgreSQL
               </p>
             </article>
@@ -229,9 +229,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <GrMysql  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <GrMysql  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 MySQL
               </p>
             </article>
@@ -244,9 +244,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <FaPython  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <FaPython  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 Python
               </p>
             </article>
@@ -259,9 +259,9 @@ const Knowledges = () => {
             <article
               className="group duration-500 hover:shadow-xl dark:hover:shadow-zinc-800 dark:hover:shadow-lg hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden"
             >
-              <TbBrandCSharp  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
+              <TbBrandCSharp  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 duration-500 gradientText text-4xl md:text-6xl" />
 
-              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+              <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                 CSharp
               </p>
             </article>
@@ -275,9 +275,9 @@ const Knowledges = () => {
               hover:scale-105 bg-white mx-auto my-0 dark:bg-zinc-800 rounded-xl flex flex-col hover:-translate-y-2 
               justify-center text-center items-center md:w-24 w-24 h-24 p:14 md:h-28 overflow-hidden">
 
-              <SiNestjs  className="group-hover:translate-y-[-10%] dark:text-purple-700 group-hover:scale-110 
+              <SiNestjs  className="group-hover:translate-y-[-10%] text-purple-700 group-hover:scale-110 
                 duration-500 gradientText text-4xl md:text-6xl" />
-                <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 dark:text-purple-700 font-semibold text-sm">
+                <p className="translate-y-[200%] duration-500 group-hover:translate-y-1 text-purple-700 font-semibold text-sm">
                   NestJS
                 </p>
             </article>

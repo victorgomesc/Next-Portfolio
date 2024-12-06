@@ -4,7 +4,7 @@ const Footer = () => {
         <span className="md:mr-12 md:py-0 py-5 text-xl gradientText font-bold">
           &lt; Victor Gomes /&gt;
         </span>
-        Copyright &copy; 2024 Victor Gomes da Costa. Todos os direitos reservados
+        Copyright &copy; 2024 Victor Gomes da Costa. All rights reserved
       </footer>
     );
   };
