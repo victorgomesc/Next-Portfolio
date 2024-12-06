@@ -57,7 +57,7 @@ const About = () => {
           <div className="md:w-9/12 md:pt-0 pt-4 flex flex-col items-start justify-center">
             <p className="text-justify px-8 py-4">
             Hello, my name is Victor, I am a committed student and passionate about the area of ​​Technology,
-            I am currently enrolled in the Computer Engineering course at the Federal University of Ceará (UFC).
+            I am currently enrolled in the Computer Engineering course at the Federal University of Ceará UFC.
             My goal is to acquire vast knowledge in my area of ​​expertise and, mainly, to master various technical
             and social skills, in addition to advancing my professional career.{" "}
             </p>
@@ -68,7 +68,7 @@ const About = () => {
             <p className="text-justify px-8 py-4">
             I am a person committed to my area of ​​knowledge and work,
             always looking to collaborate and contribute with my experience and skills.
-            My biggest interest is to continue developing innovative projects that positively impact people's lives.
+            My biggest interest is to continue developing innovative projects that positively impact people&apos;s lives.
             </p>
             <p className="text-justify px-8 py-4">
             I am looking for opportunities to grow professionally and apply my knowledge in challenging projects,
