@@ -57,7 +57,7 @@ const { theme } = useContext(ThemeContext);
           <div className="md:w-8/12 md:pt-0 pt-4 flex flex-col items-start justify-center">
             <p className="text-justify px-8 py-4">
             <strong className="text-2xl">Full Stack Developer - Internship</strong><br />
-            <span className="text-xl font-semibold">IncursoNet - Jucás, CE (Ago/2019 – Dez/2019)</span><br />
+            <span className="text-xl font-semibold">IncursoNet - Jucás, CE (August/2019 – December/2019)</span><br />
               <li>
               I developed web systems that met customer needs using the following technologies: Type Script, React, 
               Next.js, Node.js, SQL, MySQL, Jira, Gitflow, apirest.
@@ -121,7 +121,7 @@ const { theme } = useContext(ThemeContext);
           <div className="md:w-8/12 md:pt-0 pt-4 flex flex-col items-start justify-center">
             <p className="text-justify px-8 py-4">
             <strong className="text-2xl">Full Stack Developer - Junior</strong><br />
-            <span className="text-xl font-semibold">Agro Coop Solutions - Quixadá, CE (Mar/2023 - Hoje)</span><br />
+            <span className="text-xl font-semibold">Agro Coop Solutions - Quixadá, CE (March/2023 - Today)</span><br />
               <li>
               I set up my own Startup in partnership with the Federal University of Ceará and colleagues from 
               university to solve a current problem in our society, which was the lack of systems 
