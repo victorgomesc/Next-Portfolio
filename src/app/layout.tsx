@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto} from 'next/font/google'
 import "./globals.css";
-import { GiPirateCaptain } from "react-icons/gi";
-import Image from "next/image";
 
 const roboto = Roboto({
   weight: '400',
@@ -14,7 +12,6 @@ export const metadata: Metadata = {
   title: "Victor Portfolio",
   description: "Victor Portfolio",
 };
-<GiPirateCaptain />
 
 export default function RootLayout({
   children,
