@@ -44,12 +44,17 @@ const ProjectCard = ({ project }: ProjectInfo) => {
               </h2>
             </div>
             <div className="text-center flex gap-6 items-center justify-center dark:bg-black bg-white opacity-60 absolute z-[1] bottom-0 group-hover:translate-y-[200%] rounded-b-xl duration-700 w-full h-[50%]">
-              {project.techs.map((tech, index) => {
+              {project.techs.map((tech: string) => {
                 return (
-                  <i
-                    key={index}
-                    className={`${tech} relative z-[1] dark:text-white text-black text-3xl`}
-                  ></i>
+                  <div key={tech}>
+                  <Image
+                    src={tech}
+                    alt={tech}
+                    className="dark:text-black opacity-100 text-black text-3xl"
+                    width={40}
+                    height={40}
+                  />
+                </div>
                 );
               })}
             </div>

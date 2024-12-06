@@ -48,10 +48,10 @@ const About = () => {
           <div className="md:w-3/1 w-8/12 flex items-center justify-center">
             <Image
               className="text-center z-10 rounded-xl w-auto h-full"
-              src="/assets/eu.jpg"
+              src="/assets/eu1.jpeg"
               alt="about-me"
-              width={600}
-              height={400}
+              width={300}
+              height={200}
             />
           </div>
           <div className="md:w-9/12 md:pt-0 pt-4 flex flex-col items-start justify-center">
@@ -74,7 +74,7 @@ const About = () => {
             I am looking for opportunities to grow professionally and apply my knowledge in challenging projects,
             as I believe this will allow me to further expand my vision and skills.
             I believe that my motivation and determination are fundamental to achieving my goals and, above all,
-            to contribute to the evolution of the Information Technology area.
+            to contributing to projects that have a great impact on society.
             </p>
           </div>
         </section>

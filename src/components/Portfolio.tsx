@@ -15,7 +15,7 @@ const Contact = () => {
       >
         <section className="relative text-center">
           <h2 className="md:text-5xl text-4xl uppercase font-semibold py-4 relative z-[2] dark:text-white">
-            Portfólio
+            Portfolio
           </h2>
           <h2
             className={` ${
@@ -24,7 +24,7 @@ const Contact = () => {
                 : "text-white border-text-dark"
             } md:text-6xl text-5xl uppercase font-semibold py-4 absolute -top-6 md:-left-[11%] -left-[12%] z-[0] opacity-60  whitespace-nowrap`}
           >
-            Portfólio
+            Portfolio
           </h2>
         </section>
       </section>
