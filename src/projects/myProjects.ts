@@ -154,4 +154,22 @@ export const projects: ProjectType[] = [
     repo: "https://github.com/victorgomesc/DT_Money",
     deploy: "https://dt-money-amber-two.vercel.app/"
   },
+  {
+    name: "Next Portfolio",
+    techs: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      "/assets/projects/tailwind-css-2.webp",
+    ],
+    images: [
+      "/assets/projects/portfolio.png",
+      "/assets/projects/portfolio1.png",
+      "/assets/projects/portfolio2.png",
+      "/assets/projects/portfolio3.png",
+      "/assets/projects/portfolio4.png",
+    ],
+    repo: "https://github.com/victorgomesc/DT_Money",
+    deploy: "https://dt-money-amber-two.vercel.app/"
+  },
 ];
