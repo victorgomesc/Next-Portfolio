@@ -1,5 +1,10 @@
 "use client"
 
+import dynamic from "next/dynamic";
+
+// Carrega o ThemeProvider apenas no cliente
+const ThemeProvider = dynamic(() => import("@/context/ThemeContext").then((mod) => mod.ThemeProvider), { ssr: false });
+
 import About from "@/components/About";
 import Experiences from "@/components/Experiences";
 import Footer from "@/components/Footer";
@@ -8,14 +13,18 @@ import InitialDisplay from "@/components/InitialDisplay";
 import Knowledges from "@/components/Knowledges";
 import NavbarLinks from "@/components/NavbarLinks";
 import Contact from "@/components/Portfolio";
-import { ThemeProvider } from "@/context/ThemeContext";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init();
+import { useEffect } from "react";
+
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init(); 
+  }, []); 
+
   return (
-    <div>
       <ThemeProvider>
         <Header />
         <InitialDisplay />
@@ -26,6 +35,5 @@ export default function Home() {
         <Contact />
         <Footer />
       </ThemeProvider>
-    </div>
   );
 }
