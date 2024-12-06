@@ -10,7 +10,7 @@ const ViewAndRepo = ({deploy, repo}: ProjectUrls) => {
       >
         <div className="absolute group-hover:-translate-x-20 translate-x-[80%] -translate-y-[55%] duration-700 z-[1] w-[600px] h-[500px] rotate-45 bg-gradient-to-r from-blue-950 via-blue-500 to-cyan-500 "></div>
         <Link className="relative z-[2]" href={repo} target="_blank">
-          Respositório
+        Repository
         </Link>
       </button>
       <button
@@ -19,7 +19,7 @@ const ViewAndRepo = ({deploy, repo}: ProjectUrls) => {
       >
         <div className="absolute group-hover:-translate-x-20 translate-x-[80%] -translate-y-[55%] duration-700 z-[1] w-[600px] h-[500px] rotate-45 bg-gradient-to-r from-blue-950 via-blue-500 to-cyan-500 "></div>
         <Link className="relative z-[2]" href={deploy} target="_blank">
-          Visualizar
+          View
         </Link>
       </button>
     </div>
