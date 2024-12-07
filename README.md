@@ -61,6 +61,9 @@ npm run dev
 <br>
 
 <h3>Hero</h3>
+<br>
+<p>This is the project's home screen, on it we have a simple and pleasant interface with some options, including the possibility of changing the page theme (dark or light). On the left margin you can access a contact menu with information such as CV, Github, Linkedln, Email and Instagram. In the page header you can access all sections of the page using the navigation links provided.</p>
+<br>
 
 ![portfolio](https://github.com/user-attachments/assets/dcebe445-8a9b-48f4-9fad-1a6bee5d3800)
 
