@@ -33,6 +33,8 @@
 
 <p align="left">Next Portfolio is a project that I developed with the aim of showing my skills and competencies on an interactive web page, I included several sections talking about myself, my experiences, my skills, and my previous projects.</p>
 
+<p>Using React, Next.js and Tailwind CSS to create a web page offers a powerful combination of efficiency, flexibility and performance. Here is a brief summary of each technology and how they complement each other:</p>
+
 <h3 align="left">Prerequisites</h3>
 
 ###
