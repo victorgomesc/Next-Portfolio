@@ -14,6 +14,15 @@
 
 ###
 
+<h3 align="left">Prerequisites</h3>
+
+###
+<ul>
+  <li>Next: 15.0.4</li>
+  <li>Node: 18.18</li>
+  <li>React: 19.0.2</li>
+</ul>
+
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
