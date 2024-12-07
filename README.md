@@ -49,6 +49,13 @@
   <li>It has automatic routing and built-in optimization tools like image loading and code splitting.</li>
 </lu>
 
+<h4>Tailwind CSS</h4>
+<lu>
+  <li>It is a highly customizable CSS utility library that allows you to quickly create responsive designs.</li>
+  <li>It eliminates the need to write custom CSS for every detail, speeding up development.</li>
+  <li>Works well with React components, allowing styles directly in JSX.</li>
+</lu>
+
 <h3 align="left">Prerequisites</h3>
 
 ###
