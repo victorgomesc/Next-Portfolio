@@ -67,6 +67,9 @@ npm run dev
 
 ![portfolio](https://github.com/user-attachments/assets/dcebe445-8a9b-48f4-9fad-1a6bee5d3800)
 
+<br>
+<h3>About me</h3>
+
 
 
 
