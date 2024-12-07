@@ -65,7 +65,8 @@ npm run dev
 <p>This is the project's home screen, on it we have a simple and pleasant interface with some options, including the possibility of changing the page theme (dark or light). On the left margin you can access a contact menu with information such as CV, Github, Linkedln, Email and Instagram. In the page header you can access all sections of the page using the navigation links provided.</p>
 <br>
 
-![portfolio](https://github.com/user-attachments/assets/dcebe445-8a9b-48f4-9fad-1a6bee5d3800)
+![Captura de tela de 2024-12-07 11-52-51](https://github.com/user-attachments/assets/8c1cff24-20a5-4834-abe4-d5cad11babc2)
+
 
 <br>
 <h3>About me</h3>
