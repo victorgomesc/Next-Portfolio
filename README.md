@@ -32,7 +32,6 @@
 ###
 
 <p align="left">Next Portfolio is a project that I developed with the aim of showing my skills and competencies on an interactive web page, I included several sections talking about myself, my experiences, my skills, and my previous projects.</p>
-###
 
 <h3 align="left">Prerequisites</h3>
 
