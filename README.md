@@ -75,7 +75,7 @@ npm run dev
 <p>In this section I introduce myself to readers and talk about my journey studying and working with technology. I also talk about my expectations, areas of interest and why I am passionate about technology.</p>
 <br>
 
-![Captura de tela de 2024-12-07 11-55-52](https://github.com/user-attachments/assets/2de85659-8fe9-41b9-bebe-93c195d2c537)
+![Captura de tela de 2024-12-07 12-22-06](https://github.com/user-attachments/assets/ef0f48f7-8242-4327-bc32-31624ed29efb)
 
 <br>
 <h3>Experiences</h3>
