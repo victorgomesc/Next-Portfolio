@@ -14,14 +14,6 @@
 
 ###
 
-<h3 align="left">Prerequisites</h3>
-
-###
-<ul>
-  <li>Next: 15.0.4</li>
-  <li>Node: 18.18</li>
-  <li>React: 19.0.2</li>
-</ul>
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
@@ -40,6 +32,17 @@
 ###
 
 <p align="left">Next Portfolio is a project that I developed with the aim of showing my skills and competencies on an interactive web page, I included several sections talking about myself, my experiences, my skills, and my previous projects.</p>
+###
+
+<h3 align="left">Prerequisites</h3>
+
+###
+
+<ul>
+  <li>Next: 15.0.4</li>
+  <li>Node: 18.18</li>
+  <li>React: 19.0.2</li>
+</ul>
 
 ###
 
