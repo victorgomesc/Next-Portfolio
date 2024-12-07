@@ -77,6 +77,13 @@ npm run dev
 ![Captura de tela de 2024-12-07 11-55-52](https://github.com/user-attachments/assets/2de85659-8fe9-41b9-bebe-93c195d2c537)
 
 
+<h3>Experiences</h3>
+
+<p>In this section I describe in detail my professional and academic experiences, in which I describe what activities I developed, what technologies I used, people I collaborated with and technologies I used. I also listed the impact of some ideas and cultures that I implemented.
+
+</p>
+
+![Captura de tela de 2024-12-07 12-04-08](https://github.com/user-attachments/assets/fd25137c-5cf6-4093-b1e8-9a72e0600274)
 
 
 
