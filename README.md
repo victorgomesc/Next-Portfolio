@@ -70,6 +70,9 @@ npm run dev
 
 <br>
 <h3>About me</h3>
+<br>
+
+![Captura de tela de 2024-12-07 11-55-52](https://github.com/user-attachments/assets/2de85659-8fe9-41b9-bebe-93c195d2c537)
 
 
 
