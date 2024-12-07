@@ -73,29 +73,36 @@ npm run dev
 <br>
 
 <p>In this section I introduce myself to readers and talk about my journey studying and working with technology. I also talk about my expectations, areas of interest and why I am passionate about technology.</p>
+<br>
 
 ![Captura de tela de 2024-12-07 11-55-52](https://github.com/user-attachments/assets/2de85659-8fe9-41b9-bebe-93c195d2c537)
 
-
+<br>
 <h3>Experiences</h3>
+<br>
 
 <p>In this section I describe in detail my professional and academic experiences, in which I describe what activities I developed, what technologies I used, people I collaborated with and technologies I used. I also listed the impact of some ideas and cultures that I implemented.
-
 </p>
+<br>
 
 ![Captura de tela de 2024-12-07 12-04-08](https://github.com/user-attachments/assets/fd25137c-5cf6-4093-b1e8-9a72e0600274)
 
 <br>
 
 <h3>Knowledges</h3>
+<br>
 
-<p>In the knowledge section I describe all the technologies I use
-
-</p>
+<p>In the knowledge section I describe all the technologies I use</p>
+<br>
 
 ![Captura de tela de 2024-12-07 12-11-11](https://github.com/user-attachments/assets/f1eb64a1-bfe8-47a5-8170-ab36a4420f0a)
+<br>
 
 <h3>Portfolio</h3>
+<br>
+
+<p>In the portfolio section I list my most recent personal projects describing them, listing technologies used, images of the projects and link to the repository and the page.</p>
+<br>
 
 ![Captura de tela de 2024-12-07 12-15-44](https://github.com/user-attachments/assets/cd2425a1-7bcd-4394-a9ce-2c167a8e0d16)
 
