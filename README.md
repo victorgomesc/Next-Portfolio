@@ -89,6 +89,9 @@ npm run dev
 
 <h3>Knowledges</h3>
 
+![Captura de tela de 2024-12-07 12-11-11](https://github.com/user-attachments/assets/f1eb64a1-bfe8-47a5-8170-ab36a4420f0a)
+
+
 
 
 
