@@ -95,6 +95,10 @@ npm run dev
 
 ![Captura de tela de 2024-12-07 12-11-11](https://github.com/user-attachments/assets/f1eb64a1-bfe8-47a5-8170-ab36a4420f0a)
 
+<h3>Portfolio</h3>
+
+![Captura de tela de 2024-12-07 12-15-44](https://github.com/user-attachments/assets/cd2425a1-7bcd-4394-a9ce-2c167a8e0d16)
+
 
 
 
