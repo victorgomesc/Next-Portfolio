@@ -85,5 +85,10 @@ npm run dev
 
 ![Captura de tela de 2024-12-07 12-04-08](https://github.com/user-attachments/assets/fd25137c-5cf6-4093-b1e8-9a72e0600274)
 
+<br>
+
+<h3>Knowledges</h3>
+
+
 
 
