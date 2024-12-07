@@ -42,6 +42,13 @@
   <li>It offers a reactive and fast experience thanks to Virtual DOM.</li>
 </lu>
 
+<h4>Next.js</h4>
+<lu>
+  <li>It is a React-based framework that adds essential features for modern applications.</li>
+  <li>Supports server-side rendering (SSR) and static page generation (SSG), improving performance and SEO.</li>
+  <li>It has automatic routing and built-in optimization tools like image loading and code splitting.</li>
+</lu>
+
 <h3 align="left">Prerequisites</h3>
 
 ###
