@@ -60,9 +60,7 @@ npm run dev
 ```
 <br>
 
-<h3>Preview</h3>
-
-<h4>Hero</h4>
+<h3>Hero</h3>
 
 ![portfolio](https://github.com/user-attachments/assets/dcebe445-8a9b-48f4-9fad-1a6bee5d3800)
 
