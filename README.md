@@ -37,3 +37,7 @@
 <h3 align="left">Installation</h3>
 
 ###
+
+```bash
+git clone
+```
