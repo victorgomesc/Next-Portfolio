@@ -35,6 +35,13 @@
 
 <p>Using React, Next.js and Tailwind CSS to create a web page offers a powerful combination of efficiency, flexibility and performance. Here is a brief summary of each technology and how they complement each other:</p>
 
+<h4>React:</h4>
+<lu>
+  <li>It is a JavaScript library for building user interfaces (UI) efficiently and modularly.</li>
+  <li>It makes it easier to create reusable components, which makes code more organized and scalable.</li>
+  <li>It offers a reactive and fast experience thanks to Virtual DOM.</li>
+</lu>
+
 <h3 align="left">Prerequisites</h3>
 
 ###
