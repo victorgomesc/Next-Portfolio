@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { CiInstagram } from "react-icons/ci";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 const NavbarLinks = () => {
@@ -47,6 +47,15 @@ const NavbarLinks = () => {
     },
     {
       id: 5,
+      child: (
+        <>
+          WhatsApp <FaWhatsapp size={30} />
+        </>
+      ),
+      href: "https://api.whatsapp.com/send?phone=88981437585",
+    },
+    {
+      id: 6,
       child: (
         <>
           Instagram <CiInstagram size={30} />
