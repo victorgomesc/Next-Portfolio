@@ -58,7 +58,7 @@ const Knowledges = () => {
 
       <section
         style={{ perspective: 2000 }}
-        className="grid grid-cols-8 grid-rows-2 pt-10 gap-y-4 md:gap-4 w-11/12 md:px-4"
+        className="grid grid-cols-8 mt-16 grid-rows-2 pt-10 gap-y-4 md:gap-4 w-11/12 md:px-4"
         data-aos="fade-right"
         data-aos-duration="1300"
       >
