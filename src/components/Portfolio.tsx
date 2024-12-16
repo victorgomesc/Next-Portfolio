@@ -4,7 +4,7 @@ import { projects } from "../projects/myProjects";
 import ProjectCard from "./ProjectCard";
 import Image from "next/image";
 
-const Contact = () => {
+const Portfolio = () => {
   const { theme } = useContext(ThemeContext);
   return (
     <section id="portfolio" className="py-10 relative overflow-hidden min-h-screen dark:bg-neutral-900">
@@ -58,4 +58,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Portfolio;

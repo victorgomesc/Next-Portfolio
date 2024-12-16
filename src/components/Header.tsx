@@ -27,6 +27,10 @@ const Header = () => {
       name: "Portfolio",
       path: "#portfolio",
     },
+    {
+      name: "Contact",
+      path: "#contact",
+    },
   ];
 
   useEffect(() => {

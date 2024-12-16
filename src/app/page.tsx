@@ -12,10 +12,11 @@ import Header from "@/components/Header";
 import InitialDisplay from "@/components/InitialDisplay";
 import Knowledges from "@/components/Knowledges";
 import NavbarLinks from "@/components/NavbarLinks";
-import Contact from "@/components/Portfolio";
+import Portfolio from "@/components/Portfolio";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Contact from "@/components/Contact";
 
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
         <About />
         <Experiences />
         <Knowledges />
+        <Portfolio />
         <Contact />
         <Footer />
       </ThemeProvider>
