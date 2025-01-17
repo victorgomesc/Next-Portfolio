@@ -2,24 +2,24 @@
 import { ThemeContext } from "@/context/ThemeContext";
 import Image from "next/image";
 import React, { useContext } from "react";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
     const { theme } = useContext(ThemeContext);
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-
-    const form = e.currentTarget;
-    const name = (form.elements.namedItem("name") as HTMLInputElement).value.trim();
-    const email = (form.elements.namedItem("email") as HTMLInputElement).value.trim();
-    const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value.trim();
+    const { t } = useTranslation();
 
 
-    if (!name || !email || !message || !/\S+@\S+\.\S+/.test(email)) {
-      e.preventDefault();
-      alert("Por favor, preencha todos os campos corretamente.");
-    }
-  };
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+      const form = e.currentTarget; // Aqui estamos afirmando que é um HTMLFormElement
+      const name = (form.elements.namedItem('name') as HTMLInputElement).value.trim();
+      const email = (form.elements.namedItem('email') as HTMLInputElement).value.trim();
+      const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value.trim();
+  
+      if (!name || !email || !message || !/\S+@\S+\.\S+/.test(email)) {
+        e.preventDefault();
+        alert(t("Por favor, preencha todos os campos corretamente."));
+      }
+    };
 
   return (
     <section id="contact" className="py-10 relative overflow-hidden min-h-screen dark:bg-neutral-900">
