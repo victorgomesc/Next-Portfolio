@@ -75,7 +75,7 @@ const Contact = () => {
                         ? "text-Withe border-Withe" 
                         : "text-black border-black"
                     }
-                    p-2 bg-transparent border-2 rounded-md focus:outline-none focus:ring focus:ring-blue-500
+                    p-2 bg-transparent border rounded-md focus:outline-none focus:ring focus:ring-blue-500
                 `}
               required
             />
@@ -88,7 +88,7 @@ const Contact = () => {
                     ? "text-Withe border-Withe" 
                     : "text-black border-black"
                 }
-                p-2 my-4 bg-transparent border-2 rounded-md focus:outline-none focus:ring focus:ring-blue-500
+                p-2 my-4 bg-transparent border rounded-md focus:outline-none focus:ring focus:ring-blue-500
             `}
               required
             />
@@ -101,7 +101,7 @@ const Contact = () => {
                     ? "text-Withe border-Withe" 
                     : "text-black border-black"
                 }
-                p-2 bg-transparent border-2 rounded-md focus:outline-none focus:ring focus:ring-blue-500
+                p-2 bg-transparent border rounded-md focus:outline-none focus:ring focus:ring-blue-500
             `}
               required
             ></textarea>
