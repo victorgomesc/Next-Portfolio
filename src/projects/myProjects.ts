@@ -166,7 +166,6 @@ export const projects: ProjectType[] = [
       "/assets/projects/portfolio.png",
       "/assets/projects/portfolio1.png",
       "/assets/projects/portfolio2.png",
-      "/assets/projects/portfolio3.png",
       "/assets/projects/portfolio4.png",
     ],
     repo: "https://github.com/victorgomesc/DT_Money",
