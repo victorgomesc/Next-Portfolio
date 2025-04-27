@@ -39,7 +39,7 @@ const Experiences = () => {
       company: "Green Energy",
       location: "Lisboa, Portugal",
       period: "Mar 2020 - Dez 2021",
-      image: "/assets/incurso.png",
+      image: "/assets/experiences/ufc.png",
       linkCompany: "#",
       role: "Startup especializada em energias renováveis e sustentabilidade ambiental.",
       description: [
@@ -51,7 +51,7 @@ const Experiences = () => {
       company: "EduNext",
       location: "Toronto, Canadá",
       period: "Ago 2018 - Fev 2020",
-      image: "/assets/experiences/incurso.png",
+      image: "/assets/experiences/logo.webp",
       linkCompany: "#",
       role: "Plataforma educacional que oferece cursos online para estudantes de todo o mundo.",
       description: [
