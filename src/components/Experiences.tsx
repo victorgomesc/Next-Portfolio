@@ -24,9 +24,9 @@ const Experiences = () => {
 
   const experiences = [
     {
-      company: "Tech Solutions",
-      location: "São Paulo, Brasil",
-      period: "Jan 2022 - Atual",
+      company: "IncursoNET",
+      location: "Jucás, Ceará",
+      period: "Agosto/2019 - Janeiro/2020",
       image: "/assets/experiences/incurso.png",
       linkCompany: "#",
       role: "Empresa de tecnologia focada em soluções de software para o setor financeiro.",
@@ -36,7 +36,7 @@ const Experiences = () => {
       ]
     },
     {
-      company: "Green Energy",
+      company: "Universidade Federal do Ceará",
       location: "Lisboa, Portugal",
       period: "Mar 2020 - Dez 2021",
       image: "/assets/experiences/ufc.png",
@@ -48,10 +48,34 @@ const Experiences = () => {
       ]
     },
     {
-      company: "EduNext",
-      location: "Toronto, Canadá",
-      period: "Ago 2018 - Fev 2020",
+      company: "Agro Coop Solutions",
+      location: "Quixadá, Ceará",
+      period: "Jan 2023 - Jan 2024",
       image: "/assets/experiences/logo.webp",
+      linkCompany: "#",
+      role: "Plataforma educacional que oferece cursos online para estudantes de todo o mundo.",
+      description: [
+         "Empresa de tecnologia focada em soluções de software",
+         "Atuação com equipes ágeis e inovação financeira."
+      ]
+    },
+    {
+      company: "HeavyConnect",
+      location: "San Francisco, California",
+      period: "Janeiro 2024 - Today",
+      image: "/assets/experiences/heavyconnect.jpeg",
+      linkCompany: "#",
+      role: "Plataforma educacional que oferece cursos online para estudantes de todo o mundo.",
+      description: [
+         "Empresa de tecnologia focada em soluções de software",
+         "Atuação com equipes ágeis e inovação financeira."
+      ]
+    },
+    {
+      company: "Aço Verde do Brasil",
+      location: "San Francisco, California",
+      period: "Janeiro 2024 - Today",
+      image: "/assets/experiences/avb.jpeg",
       linkCompany: "#",
       role: "Plataforma educacional que oferece cursos online para estudantes de todo o mundo.",
       description: [
