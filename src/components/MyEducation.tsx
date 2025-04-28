@@ -37,7 +37,7 @@ const MyEducation = () => {
           <div className="bg-white dark:bg-zinc-800 rounded-xl shadow-lg overflow-hidden h-[400px] flex flex-col">
             <div className="relative h-1/2 w-full">
               <Image
-                src="/assets/education/ufc-logo.png"
+                src="/assets/education/ufc.jpg"
                 alt="UFC"
                 fill
                 className="object-cover"
@@ -55,7 +55,7 @@ const MyEducation = () => {
           <div className="bg-white dark:bg-zinc-800 rounded-xl shadow-lg overflow-hidden h-[400px] flex flex-col">
             <div className="relative h-1/2 w-full">
               <Image
-                src="/assets/education/fullcycle.png"
+                src="/assets/education/mit.jpg"
                 alt="Full Cycle"
                 fill
                 className="object-cover"

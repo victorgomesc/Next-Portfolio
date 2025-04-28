@@ -17,6 +17,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import Contact from "@/components/Contact";
+import MyEducation from "@/components/MyEducation";
 
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
         <InitialDisplay />
         <NavbarLinks />
         <About />
+        <MyEducation />
         <Experiences />
         <Knowledges />
         <Portfolio />
