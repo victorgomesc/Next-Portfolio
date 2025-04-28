@@ -148,3 +148,19 @@ body::-webkit-scrollbar-thumb {
     )
     1 200%;      
 }
+
+.perspective {
+  perspective: 1500px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
