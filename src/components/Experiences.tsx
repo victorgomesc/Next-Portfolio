@@ -26,8 +26,8 @@ const Experiences = () => {
       location: "Jucás, Ceará",
       period: "Agosto/2019 - Janeiro/2020",
       image: "/assets/experiences/incurso.png",
-      linkCompany: "#",
-      role: "Empresa de tecnologia focada em soluções de software para o setor financeiro.",
+      linkCompany: "https://incursonet.com.br/index.php?tipo=artigo&id=15",
+      role: "Software Engineer Trainee",
       description: [
          "Empresa de tecnologia focada em soluções de software",
       "Atuação com equipes ágeis e inovação financeira."
@@ -36,10 +36,10 @@ const Experiences = () => {
     {
       company: "Universidade Federal do Ceará",
       location: "Lisboa, Portugal",
-      period: "Mar 2020 - Dez 2021",
+      period: "Mar 2021 - Dez 2022",
       image: "/assets/experiences/ufc.png",
-      linkCompany: "#",
-      role: "Startup especializada em energias renováveis e sustentabilidade ambiental.",
+      linkCompany: "https://www.quixada.ufc.br/",
+      role: "Software Engineer Scholarship",
       description: [
          "Empresa de tecnologia focada em soluções de software",
       "Atuação com equipes ágeis e inovação financeira."
@@ -50,8 +50,8 @@ const Experiences = () => {
       location: "Quixadá, Ceará",
       period: "Jan 2023 - Jan 2024",
       image: "/assets/experiences/logo.webp",
-      linkCompany: "#",
-      role: "Plataforma educacional que oferece cursos online para estudantes de todo o mundo.",
+      linkCompany: "https://inove.quixada.ufc.br/",
+      role: "Software Engineer Entry-level",
       description: [
          "Empresa de tecnologia focada em soluções de software",
          "Atuação com equipes ágeis e inovação financeira."
@@ -62,8 +62,8 @@ const Experiences = () => {
       location: "San Francisco, California",
       period: "Janeiro 2024 - Today",
       image: "/assets/experiences/heavyconnect.jpeg",
-      linkCompany: "#",
-      role: "Plataforma educacional que oferece cursos online para estudantes de todo o mundo.",
+      linkCompany: "https://www.heavyconnect.com/",
+      role: "Software Engineer Entry-level",
       description: [
          "Empresa de tecnologia focada em soluções de software",
          "Atuação com equipes ágeis e inovação financeira."
@@ -74,8 +74,8 @@ const Experiences = () => {
       location: "San Francisco, California",
       period: "Janeiro 2024 - Today",
       image: "/assets/experiences/avb.jpeg",
-      linkCompany: "#",
-      role: "Plataforma educacional que oferece cursos online para estudantes de todo o mundo.",
+      linkCompany: "https://avb.com.br/",
+      role: "Software Enginer Mid-level",
       description: [
          "Empresa de tecnologia focada em soluções de software",
          "Atuação com equipes ágeis e inovação financeira."
