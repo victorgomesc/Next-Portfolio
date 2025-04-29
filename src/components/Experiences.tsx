@@ -12,8 +12,6 @@ import "swiper/css/effect-coverflow";
 import { FaLocationArrow, FaLocationDot } from "react-icons/fa6";
 import Link from "next/link";
 
-const experiences = [/* ... mesma lista ... */];
-
 const Experiences = () => {
   const { theme } = useContext(ThemeContext);
   const [flippedIndex, setFlippedIndex] = useState<number | null>(null);
