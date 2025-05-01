@@ -5,6 +5,7 @@ import { ThemeContext } from "../context/ThemeContext";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import SwitchTheme from "./SwitchTheme";
 import Link from "next/link";
+import path from "path";
 
 const Header = () => {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -14,6 +15,10 @@ const Header = () => {
     {
       name: "About",
       path: "#about",
+    },
+    {
+      name: "Education",
+      path: "#education"
     },
     {
       name: "Experiences",

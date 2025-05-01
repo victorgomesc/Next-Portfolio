@@ -10,9 +10,9 @@ const VideoIntro = () => {
         Watch My Intro
       </h2>
 
-      <div className="relative w-[600px] h-[300px] bg-black rounded-[2.5rem] border-8 border-gray-800 shadow-xl overflow-hidden">
+      <div className="relative w-[600px] h-[300px] bg-black rounded-[2.5rem] border-8 border-gray-950 shadow-xl overflow-hidden">
         {/* Lateral "notch" (como se fosse o botão lateral do iPhone) */}
-        <div className="absolute top-1/2 -translate-y-1/2 left-0 w-6 h-24 bg-gray-900 rounded-r-2xl z-10" />
+        <div className="absolute top-1/2 -translate-y-1/2 left-0 w-6 h-24 bg-black rounded-r-2xl z-10" />
 
         {/* Vídeo horizontal vindo de link direto */}
         <iframe
