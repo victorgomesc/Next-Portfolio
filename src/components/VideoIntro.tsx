@@ -46,7 +46,7 @@ const VideoIntro = () => {
                   width={250}
                   height={250}
                 />
-      <div className="relative w-[600px] h-[300px] mt-16 bg-black rounded-[2.5rem] border-8 border-gray-950 shadow-xl overflow-hidden">
+      <div className="relative w-[600px] h-[300px] mt-16 mb-16 bg-black rounded-[2.5rem] border-8 border-gray-950 shadow-xl overflow-hidden">
         {/* Lateral "notch" (como se fosse o botão lateral do iPhone) */}
         <div className="absolute top-1/2 -translate-y-1/2 left-0 w-6 h-24 bg-black rounded-r-2xl z-10" />
 
