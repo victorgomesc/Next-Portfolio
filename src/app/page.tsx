@@ -18,6 +18,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import Contact from "@/components/Contact";
 import MyEducation from "@/components/MyEducation";
+import VideoIntro from "@/components/VideoIntro";
 
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
         <Experiences />
         <Knowledges />
         <Portfolio />
+        <VideoIntro />
         <Contact />
         <Footer />
       </ThemeProvider>

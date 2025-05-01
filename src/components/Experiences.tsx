@@ -23,65 +23,71 @@ const Experiences = () => {
   const experiences = [
     {
       company: "IncursoNET",
-      location: "Jucás, Ceará",
-      period: "Agosto/2019 - Janeiro/2020",
+      location: "Jucás, Ceará, Brazil",
+      period: "August 2019 - January 2020",
       image: "/assets/experiences/incurso.png",
       linkCompany: "https://incursonet.com.br/index.php?tipo=artigo&id=15",
       role: "Software Engineer Trainee",
       description: [
-         "Empresa de tecnologia focada em soluções de software",
-      "Atuação com equipes ágeis e inovação financeira."
+        "Contributed to the development of educational platforms using PHP and MySQL.",
+        "Applied object-oriented programming principles and implemented responsive interfaces with HTML, CSS, and JavaScript.",
+        "Collaborated in an agile team environment to deliver new features and debug existing functionalities."
       ]
     },
     {
-      company: "Universidade Federal do Ceará",
-      location: "Lisboa, Portugal",
-      period: "Mar 2021 - Dez 2022",
+      company: "Federal University of Ceará",
+      location: "Quixadá, Ceará, Brazil",
+      period: "March 2021 - December 2022",
       image: "/assets/experiences/ufc.png",
       linkCompany: "https://www.quixada.ufc.br/",
-      role: "Software Engineer Scholarship",
+      role: "Software Engineer Scholarship Holder",
       description: [
-         "Empresa de tecnologia focada em soluções de software",
-      "Atuação com equipes ágeis e inovação financeira."
+        "Worked on research and development projects focused on embedded systems and automation.",
+        "Designed and implemented C-based software for microcontrollers, using interrupt routines and memory manipulation.",
+        "Gained hands-on experience with hardware integration, circuit design, and Linux-based system programming."
       ]
     },
     {
       company: "Agro Coop Solutions",
-      location: "Quixadá, Ceará",
-      period: "Jan 2023 - Jan 2024",
+      location: "Quixadá, Ceará, Brazil",
+      period: "January 2023 - January 2024",
       image: "/assets/experiences/logo.webp",
       linkCompany: "https://inove.quixada.ufc.br/",
-      role: "Software Engineer Entry-level",
+      role: "Entry-Level Software Engineer",
       description: [
-         "Empresa de tecnologia focada em soluções de software",
-         "Atuação com equipes ágeis e inovação financeira."
+        "Developed a full-stack web platform using Next.js, Tailwind CSS, and Node.js for cooperative agriculture management.",
+        "Implemented RESTful APIs and authentication systems with JWT and MongoDB.",
+        "Practiced agile methodologies and version control using Git and GitHub."
       ]
     },
     {
       company: "HeavyConnect",
-      location: "San Francisco, California",
-      period: "Janeiro 2024 - Today",
+      location: "San Francisco, California, USA",
+      period: "January 2024 - Present",
       image: "/assets/experiences/heavyconnect.jpeg",
       linkCompany: "https://www.heavyconnect.com/",
-      role: "Software Engineer Entry-level",
+      role: "Entry-Level Software Engineer",
       description: [
-         "Empresa de tecnologia focada em soluções de software",
-         "Atuação com equipes ágeis e inovação financeira."
+        "Participated in the development of mobile and web applications for agricultural compliance and logistics.",
+        "Utilized React Native, TypeScript, and Firebase to enhance real-time data capture and synchronization.",
+        "Focused on UI/UX improvements, scalability, and code maintainability within a CI/CD pipeline."
       ]
     },
     {
       company: "Aço Verde do Brasil",
-      location: "San Francisco, California",
-      period: "Janeiro 2024 - Today",
+      location: "São Luís, Maranhão, Brazil",
+      period: "January 2024 - Present",
       image: "/assets/experiences/avb.jpeg",
       linkCompany: "https://avb.com.br/",
-      role: "Software Enginer Mid-level",
+      role: "Mid-Level Software Engineer",
       description: [
-         "Empresa de tecnologia focada em soluções de software",
-         "Atuação com equipes ágeis e inovação financeira."
+        "Developing internal enterprise tools using C#, .NET, and SQL Server to optimize operational workflows.",
+        "Refactoring legacy code and implementing unit tests using xUnit and Jest.",
+        "Collaborating with cross-functional teams to integrate Kafka for real-time data processing and monitoring."
       ]
     }
   ]
+  
 
   return (
     <section
