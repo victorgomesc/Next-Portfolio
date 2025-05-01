@@ -31,6 +31,20 @@ const MyEducation = () => {
             My Education
           </h2>
         </section>
+        <Image
+                  className="absolute top-0 right-0 md:w-[250px] md:h-[250px] w-[110px] h-[110px] text-center z-[-1] blur-3xl opacity-50 rounded-full"
+                  src="/assets/bg-gradient.webp"
+                  alt="bg-gradient"
+                  width={250}
+                  height={250}
+                />
+                <Image
+                  className="absolute bottom-0 left-0 md:w-[250px] md:h-[250px] w-[110px] h-[110px] text-center z-[-1] blur-3xl opacity-50 rounded-full"
+                  src="/assets/bg-gradient.webp"
+                  alt="bg-gradient"
+                  width={250}
+                  height={250}
+                />
 
         <div className="grid md:grid-cols-2 grid-cols-1 gap-10 px-6 py-12 w-full max-w-6xl">
           {/* Card 1 */}

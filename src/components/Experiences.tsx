@@ -96,16 +96,34 @@ const Experiences = () => {
     >
       <section className="flex flex-col items-center justify-center" data-aos="fade-down" data-aos-duration="1000">
         {/* Título */}
-        <section className="relative text-center mb-6">
-          <h2 className="md:text-5xl text-4xl uppercase font-semibold py-4 relative z-[2]">Experiences</h2>
+        <section className="relative text-center">
+          <h2 className="md:text-5xl text-4xl uppercase font-semibold py-4 relative z-[2]">
+            Experience
+          </h2>
           <h2
-            className={`absolute -top-6 md:-left-[11%] -left-[12%] z-[0] opacity-60 whitespace-nowrap md:text-6xl text-5xl uppercase font-semibold ${
-              theme === "dark" ? "text-black" : "text-white"
-            }`}
+            className={` ${
+              theme === "dark"
+                ? "text-black border-text-light"
+                : "text-white border-text-dark"
+            } md:text-6xl text-5xl uppercase font-semibold py-4 absolute -top-6 md:-left-[11%] -left-[12%] z-[0] opacity-60  whitespace-nowrap`}
           >
-            Experiences
+            Experience
           </h2>
         </section>
+        <Image
+                  className="absolute top-0 right-0 md:w-[250px] md:h-[250px] w-[110px] h-[110px] text-center z-[-1] blur-3xl opacity-50 rounded-full"
+                  src="/assets/bg-gradient.webp"
+                  alt="bg-gradient"
+                  width={250}
+                  height={250}
+                />
+                <Image
+                  className="absolute bottom-0 left-0 md:w-[250px] md:h-[250px] w-[110px] h-[110px] text-center z-[-1] blur-3xl opacity-50 rounded-full"
+                  src="/assets/bg-gradient.webp"
+                  alt="bg-gradient"
+                  width={250}
+                  height={250}
+                />
 
         {/* Swiper com autoplay pausando no hover */}
         <Swiper
