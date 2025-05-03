@@ -30,8 +30,9 @@ const Experiences = () => {
       role: "Software Engineer Trainee",
       description: [
         "I work on the development and maintenance of internal web platforms using C# and .NET Core, focusing on efficient and scalable solutions for the company's industrial processes.",
-        "Applied object-oriented programming principles and implemented responsive interfaces with HTML, CSS, and JavaScript.",
-        "Collaborated in an agile team environment to deliver new features and debug existing functionalities."
+        "I participated in architectural refactoring initiatives that reduced the processing time of critical internal processes by 25%.",
+        "Collaborated in an agile team environment to deliver new features and debug existing functionalities.",
+        "My technical contributions include using Docker for containerization, GitLab CI/CD for continuous delivery, Azure DevOps Server for repository and pipeline management, and Git Flow as the main development workflow."
       ]
     },
     {
