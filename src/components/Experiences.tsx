@@ -29,10 +29,9 @@ const Experiences = () => {
       linkCompany: "https://incursonet.com.br/index.php?tipo=artigo&id=15",
       role: "Software Engineer Trainee",
       description: [
-        "I work on the development and maintenance of internal web platforms using C# and .NET Core, focusing on efficient and scalable solutions for the company's industrial processes.",
-        "I participated in architectural refactoring initiatives that reduced the processing time of critical internal processes by 25%.",
-        "Collaborated in an agile team environment to deliver new features and debug existing functionalities.",
-        "My technical contributions include using Docker for containerization, GitLab CI/CD for continuous delivery, Azure DevOps Server for repository and pipeline management, and Git Flow as the main development workflow."
+        "Developing internal enterprise tools using C#, .NET, and SQL Server to optimize operational workflows.",
+        "Refactoring legacy code and implementing unit tests using xUnit and Jest.",
+        "Collaborating with cross-functional teams to integrate Kafka for real-time data processing and monitoring."
       ]
     },
     {
@@ -69,9 +68,10 @@ const Experiences = () => {
       linkCompany: "https://www.heavyconnect.com/",
       role: "Entry-Level Software Engineer",
       description: [
-        "Participated in the development of mobile and web applications for agricultural compliance and logistics.",
-        "Utilized React Native, TypeScript, and Firebase to enhance real-time data capture and synchronization.",
-        "Focused on UI/UX improvements, scalability, and code maintainability within a CI/CD pipeline."
+        "I worked remotely with an international team, collaborating on the development of web systems for operations management in the agricultural sector.",
+        "I participated in the maintenance and evolution of backend systems with Node.js and .NET, in addition to contributing with responsive and intuitive frontend interfaces in React and Next.js.",
+        "I worked on sprint planning, code reviews and functional testing to ensure high quality of the delivered product.",
+        "This period allowed me to actively apply English in professional environments, both in verbal and written communication, consolidating my technical fluency."
       ]
     },
     {
@@ -82,9 +82,10 @@ const Experiences = () => {
       linkCompany: "https://avb.com.br/",
       role: "Mid-Level Software Engineer",
       description: [
-        "Developing internal enterprise tools using C#, .NET, and SQL Server to optimize operational workflows.",
-        "Refactoring legacy code and implementing unit tests using xUnit and Jest.",
-        "Collaborating with cross-functional teams to integrate Kafka for real-time data processing and monitoring."
+        "I work on the development and maintenance of internal web platforms using C# and .NET Core, focusing on efficient and scalable solutions for the company's industrial processes.",
+        "I participated in architectural refactoring initiatives that reduced the processing time of critical internal processes by 25%.",
+        "Collaborated in an agile team environment to deliver new features and debug existing functionalities.",
+        "My technical contributions include using Docker for containerization, GitLab CI/CD for continuous delivery, Azure DevOps Server for repository and pipeline management, and Git Flow as the main development workflow.",
       ]
     }
   ]
