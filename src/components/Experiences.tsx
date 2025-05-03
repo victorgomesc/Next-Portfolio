@@ -29,7 +29,7 @@ const Experiences = () => {
       linkCompany: "https://incursonet.com.br/index.php?tipo=artigo&id=15",
       role: "Software Engineer Trainee",
       description: [
-        "Contributed to the development of educational platforms using PHP and MySQL.",
+        "I work on the development and maintenance of internal web platforms using C# and .NET Core, focusing on efficient and scalable solutions for the company's industrial processes.",
         "Applied object-oriented programming principles and implemented responsive interfaces with HTML, CSS, and JavaScript.",
         "Collaborated in an agile team environment to deliver new features and debug existing functionalities."
       ]
