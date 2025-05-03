@@ -56,19 +56,20 @@ const About = () => {
           </div>
           <div className="md:w-9/12 md:pt-0 pt-4 flex flex-col items-start justify-center">
             <p className="text-justify px-8 py-4">
-            Hello, my name is Victor, I am a committed student and passionate about the area of ​​Technology,
-            I am currently enrolled in the Computer Engineering course at the Federal University of Ceará UFC.
-            My goal is to acquire vast knowledge in my area of ​​expertise and, mainly, to master various technical
-            and social skills, in addition to advancing my professional career.{" "}
+            My name is Victor Gomes da Costa, and I’m a Software Engineer with over 4 years of experience building scalable, 
+            high-performance full-stack applications using modern technologies such as React, Next.js, Node.js, C#, and .NET. 
+            I have strong expertise in designing and implementing RESTful APIs, writing automated tests with Jest and Cypress, 
+            and deploying applications in cloud-native environments.
             </p>
             <p className="text-justify px-8 py-4">
-            I am currently dedicating my efforts to improving my skills in Typescript, Nodejs and React and Next.js, Dotnet 
-            and Net core. My goal is to become a FullStack Developer.
+            Throughout my career, I’ve worked in agile, cross-functional, and international teams, contributing to projects in 
+            both startups and large enterprises. I consistently focus on clean architecture, code quality, and delivering impactful 
+            solutions that meet real business needs.
             </p>
             <p className="text-justify px-8 py-4">
-            I am a person committed to my area of ​​knowledge and work,
-            always looking to collaborate and contribute with my experience and skills.
-            My biggest interest is to continue developing innovative projects that positively impact people&apos;s lives.
+            I'm currently pursuing a Bachelor’s degree in Computer Engineering at UFC (Federal University of Ceará). I’m actively seeking 
+            international opportunities where I can apply my technical and collaborative skills, contribute to innovative teams, and continue 
+            growing as a professional by solving meaningful challenges with modern, efficient solutions.
             </p>
             <p className="text-justify px-8 py-4">
             I am looking for opportunities to grow professionally and apply my knowledge in challenging projects,

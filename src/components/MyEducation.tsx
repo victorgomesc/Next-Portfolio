@@ -76,9 +76,9 @@ const MyEducation = () => {
               />
             </div>
             <div className="p-6 h-1/2 flex flex-col justify-center">
-              <h3 className="text-2xl font-semibold mb-2">Full Cycle Developer Immersion</h3>
+              <h3 className="text-2xl font-semibold mb-2">Massachusetts Institute of Technology</h3>
               <p className="text-sm text-justify">
-                Practical training in Fullstack development using technologies like React, Next.js, TypeScript, Node.js, Docker, and advanced software architecture patterns.
+              International program focused on applying data science, AI, and digital transformation in business. Gained hands-on experience with predictive analytics, machine learning, and data-driven decision-making through high-impact projects.
               </p>
             </div>
           </div>
