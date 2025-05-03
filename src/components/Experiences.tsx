@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
-import { FaLocationArrow, FaLocationDot } from "react-icons/fa6";
+import { FaCalendar, FaLocationArrow, FaLocationDot } from "react-icons/fa6";
 import Link from "next/link";
 
 const Experiences = () => {
@@ -50,7 +50,7 @@ const Experiences = () => {
     {
       company: "Agro Coop Solutions",
       location: "Quixadá, Ceará, Brazil",
-      period: "January 2023 - January 2024",
+      period: "January 2023 - December 2024",
       image: "/assets/experiences/logo.webp",
       linkCompany: "https://inove.quixada.ufc.br/",
       role: "Entry-Level Software Engineer",
@@ -63,7 +63,7 @@ const Experiences = () => {
     {
       company: "HeavyConnect",
       location: "San Francisco, California, USA",
-      period: "January 2024 - Present",
+      period: "December 2024 - April 2025",
       image: "/assets/experiences/heavyconnect.jpeg",
       linkCompany: "https://www.heavyconnect.com/",
       role: "Entry-Level Software Engineer",
@@ -171,20 +171,21 @@ const Experiences = () => {
                       className="rounded-full border border-gray-300 dark:border-gray-600"
                     />
                     <h3 className="text-xl font-semibold mt-3 dark:text-gray-100">{exp.company}</h3>
+                    <p className="text-gray-600 dark:text-gray-400">{exp.role}</p>
                     <span className="text-gray-600 flex items-center justify-center gap-1 dark:text-gray-400">
                       <FaLocationDot size={16} />
                       {exp.location}
                     </span>
-                    <p className="text-gray-600 dark:text-gray-400">{exp.role}</p>
-                    <p className="text-gray-500 text-sm">{exp.period}</p>
+                    
+                    <p className="text-gray-600  dark:text-gray-400 flex items-center gap-1 text-sm"> <FaCalendar size={16} /> {exp.period}</p>
 
                     <Link href={exp.linkCompany} target="_blank">
-                      <p className="mt-4 px-4 py-2 flex w-40 justify-center gap-1 items-center bg-blue-600 dark:bg-blue-500 text-white rounded-full transition-all hover:bg-blue-700">
+                      <p className="mt-4 px-4 py-2 flex w-40 justify-center gap-1 items-center bg-blue-900 dark:bg-blue-900 text-white rounded-full transition-all hover:bg-blue-700">
                         Company <FaLocationArrow />
                       </p>
                     </Link>
                     <button
-                      className="mt-4 px-4 py-2 bg-blue-600 w-40 dark:bg-blue-500 text-white rounded-full transition-all hover:bg-blue-700"
+                      className="mt-4 px-4 py-2 bg-blue-900 w-40 dark:bg-blue-900 text-white rounded-full transition-all hover:bg-blue-700"
                       onClick={() => handleFlip(index)}
                     >
                       See Details
