@@ -56,18 +56,18 @@ const About = () => {
           </div>
           <div className="md:w-9/12 md:pt-0 pt-4 flex flex-col items-start justify-center">
             <p className="text-justify px-8 py-4">
-            My name is Victor Gomes da Costa, and I’m a Software Engineer with over 4 years of experience building scalable, 
+            My name is Victor Gomes da Costa, and I&apos;m a Software Engineer with over 4 years of experience building scalable, 
             high-performance full-stack applications using modern technologies such as React, Next.js, Node.js, C#, and .NET. 
             I have strong expertise in designing and implementing RESTful APIs, writing automated tests with Jest and Cypress, 
             and deploying applications in cloud-native environments.
             </p>
             <p className="text-justify px-8 py-4">
-            Throughout my career, I’ve worked in agile, cross-functional, and international teams, contributing to projects in 
+            Throughout my career, I&apos;ve worked in agile, cross-functional, and international teams, contributing to projects in 
             both startups and large enterprises. I consistently focus on clean architecture, code quality, and delivering impactful 
             solutions that meet real business needs.
             </p>
             <p className="text-justify px-8 py-4">
-            I'm currently pursuing a Bachelor’s degree in Computer Engineering at UFC (Federal University of Ceará). I’m actively seeking 
+            I&apos;m currently pursuing a Bachelor&apos;s degree in Computer Engineering at UFC (Federal University of Ceará). I&apos;m actively seeking 
             international opportunities where I can apply my technical and collaborative skills, contribute to innovative teams, and continue 
             growing as a professional by solving meaningful challenges with modern, efficient solutions.
             </p>
